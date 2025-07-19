@@ -131,3 +131,72 @@ main section{
 box-shadow: 1px 6px 50px 1px rgb(72, 68, 68);
 
 }
+/* resume columns */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 27px;
+text-align: center;
+}
+.experience-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 11px;
+}
+.resume-column-title{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 22px;
+}
+.experience-title{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 17px;
+}
+.experience-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 15px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type=text]{
+height: 64px;
+width: 461px;
+border-radius: 5px;
+background-color: rgb(255, 255, 255);
+padding: 5px 10px;
+border: none;
+}
+.section-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 27px;
+}
+.footer-para{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 10px;
+}
+.footer-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 5px;
+}
+
